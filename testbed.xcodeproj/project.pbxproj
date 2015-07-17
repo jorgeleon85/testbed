@@ -12,18 +12,7 @@
 		140384381B58C0F50023B146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140384361B58C0F50023B146 /* Main.storyboard */; };
 		1403843A1B58C0F50023B146 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140384391B58C0F50023B146 /* Images.xcassets */; };
 		1403843D1B58C0F50023B146 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1403843B1B58C0F50023B146 /* LaunchScreen.xib */; };
-		140384491B58C0F50023B146 /* testbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140384481B58C0F50023B146 /* testbedTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		140384431B58C0F50023B146 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 140384251B58C0F50023B146 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1403842C1B58C0F50023B146;
-			remoteInfo = testbed;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1403842D1B58C0F50023B146 /* testbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,10 @@
 		140384371B58C0F50023B146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		140384391B58C0F50023B146 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1403843C1B58C0F50023B146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		140384421B58C0F50023B146 /* testbedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testbedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		140384471B58C0F50023B146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		140384481B58C0F50023B146 /* testbedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testbedTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1403842A1B58C0F50023B146 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1403843F1B58C0F50023B146 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				1403842F1B58C0F50023B146 /* testbed */,
-				140384451B58C0F50023B146 /* testbedTests */,
 				1403842E1B58C0F50023B146 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				1403842D1B58C0F50023B146 /* testbed.app */,
-				140384421B58C0F50023B146 /* testbedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		140384451B58C0F50023B146 /* testbedTests */ = {
-			isa = PBXGroup;
-			children = (
-				140384481B58C0F50023B146 /* testbedTests.swift */,
-				140384461B58C0F50023B146 /* Supporting Files */,
-			);
-			path = testbedTests;
-			sourceTree = "<group>";
-		};
-		140384461B58C0F50023B146 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				140384471B58C0F50023B146 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = 1403842D1B58C0F50023B146 /* testbed.app */;
 			productType = "com.apple.product-type.application";
 		};
-		140384411B58C0F50023B146 /* testbedTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1403844F1B58C0F50023B146 /* Build configuration list for PBXNativeTarget "testbedTests" */;
-			buildPhases = (
-				1403843E1B58C0F50023B146 /* Sources */,
-				1403843F1B58C0F50023B146 /* Frameworks */,
-				140384401B58C0F50023B146 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				140384441B58C0F50023B146 /* PBXTargetDependency */,
-			);
-			name = testbedTests;
-			productName = testbedTests;
-			productReference = 140384421B58C0F50023B146 /* testbedTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					1403842C1B58C0F50023B146 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					140384411B58C0F50023B146 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 1403842C1B58C0F50023B146;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				1403842C1B58C0F50023B146 /* testbed */,
-				140384411B58C0F50023B146 /* testbedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		140384401B58C0F50023B146 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1403843E1B58C0F50023B146 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				140384491B58C0F50023B146 /* testbedTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		140384441B58C0F50023B146 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1403842C1B58C0F50023B146 /* testbed */;
-			targetProxy = 140384431B58C0F50023B146 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		140384361B58C0F50023B146 /* Main.storyboard */ = {
@@ -358,40 +272,6 @@
 			};
 			name = Release;
 		};
-		140384501B58C0F50023B146 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testbedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testbed.app/testbed";
-			};
-			name = Debug;
-		};
-		140384511B58C0F50023B146 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testbedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testbed.app/testbed";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,14 +289,6 @@
 			buildConfigurations = (
 				1403844D1B58C0F50023B146 /* Debug */,
 				1403844E1B58C0F50023B146 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1403844F1B58C0F50023B146 /* Build configuration list for PBXNativeTarget "testbedTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				140384501B58C0F50023B146 /* Debug */,
-				140384511B58C0F50023B146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
